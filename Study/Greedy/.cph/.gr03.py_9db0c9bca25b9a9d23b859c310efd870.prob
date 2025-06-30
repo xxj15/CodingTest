@@ -1,0 +1,1 @@
+{"name":"Local: gr03","url":"/Users/xxj15/projects/Algorithm/Study/Greedy/gr03.py","tests":[{"id":1751269553520,"input":"3 3\n3 1 2 \n4 1 4 \n2 2 2 ","output":"2"},{"id":1751269563783,"input":"2 4\n7 3 1 8 \n3 3 3 4","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/xxj15/projects/Algorithm/Study/Greedy/gr03.py","group":"local","local":true}
