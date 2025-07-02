@@ -1,4 +1,4 @@
-#시각 
+#시각 - 완전탐색 
 import sys
 input = sys.stdin.readline
 
