@@ -1,0 +1,1 @@
+{"name":"Local: 6-3","url":"/Users/xxj15/projects/Algorithm/Study/정렬/6-3.py","tests":[{"id":1751981289872,"input":"2\n홍길동 95\n이순신 77","output":"이순신 홍길동 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/xxj15/projects/Algorithm/Study/정렬/6-3.py","group":"local","local":true}
