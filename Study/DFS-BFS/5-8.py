@@ -1,3 +1,5 @@
+# DFS - 스택 자료구조 활용. 재귀함수 이용 
+
 def dfs(graph, v, visited):
   visited[v]=True
   print(v, end = ' ')
