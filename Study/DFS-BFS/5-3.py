@@ -9,6 +9,7 @@ def dfs(x, y):
     if x < 0 or x >= n or y < 0 or y >= m:
         return False
     
+    #아직 방문하지 않았다면 
     if graph[x][y] == 0:
         graph[x][y] = 1
         
@@ -17,8 +18,8 @@ def dfs(x, y):
         dfs(x + 1, y)
         dfs(x, y + 1)
         return True
-    
-    return False
+    else:
+        return False
 
 result = 0
 for i in range(n):
