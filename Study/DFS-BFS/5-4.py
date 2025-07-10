@@ -14,9 +14,16 @@ dy = [0, 0, -1, 1]
 def bfs(x, y):
   queue = deque()
   queue.append((x,y))
+  
+  # 시작점을 1로 설정 (이동 가능한 칸)
+  graph[x][y] = 1
 
   while queue:
     x, y = queue.popleft()
+    
+    # 도착점에 도달했으면 최단 거리 반환 !!
+    if x == N-1 and y == M-1:
+      return graph[x][y]
 
     for i in range(4):
       nx = x + dx[i]
@@ -25,11 +32,9 @@ def bfs(x, y):
       if nx<0 or nx>=N or ny<0 or ny >= M: 
         continue
 
-      if graph[nx][ny]==0:
-        continue
-
+      # 이동 가능한 칸(1)일 때만 방문
       if graph[nx][ny] == 1:
-        graph[nx][ny] = graph[x][y]+1
+        graph[nx][ny] = graph[x][y] + 1
         queue.append((nx,ny))
 
   return graph[N-1][M-1]
