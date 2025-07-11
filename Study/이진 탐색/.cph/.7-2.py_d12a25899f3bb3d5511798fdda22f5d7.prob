@@ -1,0 +1,1 @@
+{"name":"Local: 7-2","url":"/Users/xxj15/projects/Algorithm/Study/이진 탐색/7-2.py","tests":[{"id":1752212444891,"input":"5\n8 3 7 9 2\n3\n5 7 9","output":"no yes yes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/xxj15/projects/Algorithm/Study/이진 탐색/7-2.py","group":"local","local":true}
