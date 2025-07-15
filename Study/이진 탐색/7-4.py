@@ -27,4 +27,3 @@ while(start<=end):
 
 print(result)
 
-print(17//2)
