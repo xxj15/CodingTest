@@ -1,0 +1,1 @@
+{"name":"Local: 8-5","url":"/Users/xxj15/projects/Algorithm/Study/Greedy/8-5.py","tests":[{"id":1752645365996,"input":"2 15\n2\n3","output":"5"},{"id":1752645372076,"input":"3 4\n3\n5\n7","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/xxj15/projects/Algorithm/Study/Greedy/8-5.py","group":"local","local":true}
