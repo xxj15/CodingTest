@@ -11,7 +11,7 @@ rate = 1
 
 for i in range(n):
   if i>0 and rows[i][1:] != rows[i-1][1:]:
-    rate += 1
+    rate = i + 1
   
   if rows[i][0] == k:
     print(rate)
