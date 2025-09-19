@@ -1,0 +1,1 @@
+{"name":"Local: 20053","url":"/Users/xxj15/projects/Algorithm/Study/개념/구현/20053.py","tests":[{"id":1758257040267,"input":"3\n5\n20 28 22 25 21\n5\n30 21 17 25 29\n5\n20 10 35 30 7","output":"20 28\n17 30\n7 35"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/xxj15/projects/Algorithm/Study/개념/구현/20053.py","group":"local","local":true}
