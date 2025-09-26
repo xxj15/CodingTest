@@ -1,0 +1,1 @@
+{"name":"Local: 2121","url":"/Users/xxj15/projects/Algorithm/Study/Silver/2121.py","tests":[{"id":1758850934094,"input":"6\n2 3\n0 0\n2 0\n2 3\n0 3\n4 0\n4 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/xxj15/projects/Algorithm/Study/Silver/2121.py","group":"local","local":true}
