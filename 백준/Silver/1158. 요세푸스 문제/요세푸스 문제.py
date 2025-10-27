@@ -1,15 +1,16 @@
-import sys
-input = sys.stdin.readline
+#요세푸스 문제
 from collections import deque
+N, K = map(int, input().split())
 
-n, k = map(int, input().split())
-
-queue = deque(range(1, n + 1))
-res = []
+queue = deque(range(1, N+1))
+ans = []
 
 while queue:
-    queue.rotate(-(k - 1))  # k-1번 회전
-    res.append(queue.popleft())  
+  queue.rotate(-(K-1))
+  pop_num = queue.popleft()
+  ans.append(str(pop_num))
+
+print("<" + ", ".join(ans) + ">")
 
 
-print("<" + ", ".join(map(str, res)) + ">")
+
