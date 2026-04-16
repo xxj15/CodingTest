@@ -5,8 +5,7 @@ grid = [list(map(int, input().split())) for _ in range(n)]
 ans = 0
 
 def check_ishappy(seq):
-    max_cnt, cnt = 1,11
-
+    max_cnt, cnt = 1,1
     for i in range(1,n):
         if seq[i] == seq[i-1]:
             cnt += 1
