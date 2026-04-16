@@ -5,18 +5,18 @@ grid = [list(map(int, input().split())) for _ in range(n)]
 ans = 0
 
 def check_ishappy(seq):
-    cnt = 1
+    max_cnt, cnt = 1,11
 
     for i in range(1,n):
         if seq[i] == seq[i-1]:
             cnt += 1
-            if cnt >= m:
-                return 1
+            max_cnt = max(cnt, max_cnt)
         else:
             cnt = 1
-            if cnt >= m:
-                return 1
-    else:
+
+    if max_cnt >= m:
+        return 1
+    else: 
         return 0
 
 
